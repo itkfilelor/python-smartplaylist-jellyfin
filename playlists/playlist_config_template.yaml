@@ -1,4 +1,4 @@
-# file must be saved as '*.yml' or it will not be included
+# *.yml or *.yaml work
 Name: Template #Playlist Name
 Id: False # Stores the playlist ID
 MediaType: 'Video' # Audio or Video
