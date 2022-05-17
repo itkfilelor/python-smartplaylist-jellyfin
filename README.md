@@ -13,4 +13,5 @@ TODO
 TODO
 # Future (Maybe)
 For now this works for my use case. If interest is shown, I may work on other options such as reverse sorting and different elements to sort against (i.e folders, artist, etc).
-As of right now, it sorts playlists by air date and time (optional) in ascending order. 
+As of right now, it sorts playlists by air date and time (optional) in ascending order.
+While playlist config does have an option for multiple users, the script does not support at this time.
