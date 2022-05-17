@@ -1,0 +1,9 @@
+# file must be saved as '*.yml' or it will not be included
+Name: Template #Playlist Name
+Id: False # Stores the playlist ID
+MediaType: 'Video' # Audio or Video
+User: False # user to build playlist for cannot be used with 'Users'
+Users: False # users to buld playlist for cannot be used with 'User'
+Shows:
+  - name: # name of show as it appears on server
+    time: # OPTIONAL 24HR air time 

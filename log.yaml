@@ -1,0 +1,25 @@
+version: 1
+handlers:
+  fh: 
+    class: logging.FileHandler
+    filename: none
+    formatter: full 
+    level: DEBUG
+    mode: 'a'
+  sh: 
+    formatter: simple
+    class: logging.StreamHandler
+    level: DEBUG
+    stream: 'ext://sys.stdout'
+
+formatters: 
+  simple:
+    format: '%(name)s::%(funcName)s:%(lineno)d - %(message)s'
+  full:
+    format: '%(asctime)s - %(filename)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s'
+    datefmt: '%Y%m%d::%H:%M:%S'
+loggers:
+  __main__:
+    handlers: [fh,sh]
+    level: INFO 
+disable_existing_loggers: False

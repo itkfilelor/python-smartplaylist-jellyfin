@@ -1,0 +1,6 @@
+# file must be named 'server_config.yaml' or process will fail
+host: <string>
+port: <string>
+token: <string>
+users:
+  <username>:<id:string> # will populate as script is run
