@@ -1,9 +1,13 @@
-# '*.yml' or '*.yaml' work
-Name: Template #Playlist Name
-Id: False # Stores the playlist ID
-MediaType: 'Video' # Audio or Video
-User: False # user to build playlist for cannot be used with 'Users'
-Users: False # users to buld playlist for cannot be used with 'User'
+# '*.yml' or '*.yaml' work This file as named is ignored by script 
+Name: <string> #Playlist Name
+Id: <string> False # Stores the playlist ID !!! Mark as False for new lists !!!
+MediaType: Video # Audio or Video
+# user to build playlist for cannot be used with 'Users' and must be marked
+# False if using 'Users'
+User: False 
+# users to buld playlist for cannot be used with 'User' and must be marked
+# False if using 'User' !!! Currently unsupported !!! 
+Users: False # <list>
 Shows:
-  - name: # name of show as it appears on server
-    time: # OPTIONAL 24HR air time 
+  - name: <string> # name of show as it appears on server
+    time: <string> # OPTIONAL 24HR air time 
