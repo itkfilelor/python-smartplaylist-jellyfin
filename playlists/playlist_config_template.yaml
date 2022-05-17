@@ -1,4 +1,4 @@
-# *.yml or *.yaml work
+# '*.yml' or '*.yaml' work
 Name: Template #Playlist Name
 Id: False # Stores the playlist ID
 MediaType: 'Video' # Audio or Video
